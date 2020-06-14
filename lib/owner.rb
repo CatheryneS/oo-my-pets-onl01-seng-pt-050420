@@ -1,4 +1,5 @@
 class Owner
+<<<<<<< HEAD
   attr_reader :name, :species
   @@all = []
   
@@ -72,3 +73,20 @@ end
 
 
 
+=======
+  
+  def initialize(name)
+    @name = name
+  end
+  
+  def name=(name)
+  # raise NoMethodError
+    @name = name
+  end
+  
+  def name
+   raise NoMethodError
+   @name 
+  end
+end
+>>>>>>> 78c246f4728eb9f2fa6d8f1d156c34567fc228bd
